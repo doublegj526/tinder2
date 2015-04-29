@@ -111,7 +111,7 @@
   function doneClicked(){
     document.getElementById("status").innerHTML = "";
     for(var i = 0; i < window.yesPhotos.length; i++){
-      var x = doument.createElement("img");
+      var x = document.createElement("img");
       x.setAttribute("src", window.yesPhotos[i]);
       document.getElementById("status").appendChild(x);
     }
